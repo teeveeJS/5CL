@@ -30,7 +30,7 @@ def stddev_s(x):
 
 def std_err(x):
     # standard error
-    return sttdev_s(x) / np.sqrt(len(x))
+    return stddev_s(x) / np.sqrt(len(x))
 
 
 """
